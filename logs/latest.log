@@ -1,40 +1,104 @@
-[21:45:08] [ServerMain/INFO]: Building unoptimized datafixer
-[21:45:10] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:45:10] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[21:45:14] [ServerMain/INFO]: Loaded 7 recipes
-[21:45:18] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[21:45:18] [Server thread/WARN]: ****************************
-[21:45:18] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[21:45:18] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[21:45:18] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[21:45:18] [Server thread/WARN]: ****************************
-[21:45:18] [Server thread/INFO]: Loading properties
-[21:45:18] [Server thread/INFO]: This server is running Paper version git-Paper-303 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: ec6a9a3)
-[21:45:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:45:18] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:45:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[21:45:19] [Server thread/INFO]: Default game type: SURVIVAL
-[21:45:19] [Server thread/INFO]: Generating keypair
-[21:45:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:45:19] [Server thread/INFO]: Using epoll channel type
-[21:45:19] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:45:19] [Server thread/INFO]: Paper: Using OpenSSL 1.0.x (Linux x86_64) cipher from Velocity.
-[21:45:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:45:20] [Server thread/INFO]: Preparing level "world"
-[21:45:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:45:50] [Server thread/INFO]: Time elapsed: 302 ms
-[21:45:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:45:50] [Server thread/INFO]: Time elapsed: 208 ms
-[21:45:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:45:50] [Server thread/INFO]: Time elapsed: 233 ms
-[21:45:50] [Server thread/INFO]: Running delayed init tasks
-[21:45:50] [Server thread/INFO]: Done (32.176s)! For help, type "help"
-[21:45:50] [Server thread/INFO]: Timings Reset
-[21:46:32] [Server thread/INFO]: Made iNoahZ a server operator
-[21:48:40] [User Authenticator #0/INFO]: UUID of player iNoahZ is bcd6146c-2774-4728-af94-9c535c773c0d
-[21:48:40] [Server thread/INFO]: iNoahZ joined the game
-[21:48:40] [Server thread/INFO]: iNoahZ[/207.38.134.25:65165] logged in with entity id 260 at ([world]-129.5, 65.0, -8.5)
-[21:53:59] [Server thread/INFO]: Stopping server
-[21:53:59] [Server thread/INFO]: Saving players
-[21:53:59] [Server thread/INFO]: iNoahZ lost connection: Server closed
-[21:53:59] [Server thread/INFO]: iNoahZ left the game
+[18:09:52] [ServerMain/INFO]: Building unoptimized datafixer
+[18:09:54] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:09:57] [ServerMain/INFO]: Loaded 7 recipes
+[18:10:00] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[18:10:00] [Server thread/WARN]: ****************************
+[18:10:00] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[18:10:00] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[18:10:00] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[18:10:00] [Server thread/WARN]: ****************************
+[18:10:00] [Server thread/INFO]: Loading properties
+[18:10:00] [Server thread/INFO]: This server is running Paper version git-Paper-303 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: ec6a9a3)
+[18:10:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:10:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:10:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:10:01] [Server thread/INFO]: Default game type: SURVIVAL
+[18:10:01] [Server thread/INFO]: Generating keypair
+[18:10:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:10:02] [Server thread/INFO]: Using epoll channel type
+[18:10:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:10:02] [Server thread/INFO]: Paper: Using OpenSSL 1.0.x (Linux x86_64) cipher from Velocity.
+[18:10:02] [Server thread/ERROR]: Could not load 'plugins/Roulette-1.9.2.1-SNAPSHOT.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ProtocolLib, Vault]. Please download and install these plugins to run 'Roulette'.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:287) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:423) ~[paper-1.19.2.jar:git-Paper-303]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:278) ~[paper-1.19.2.jar:git-Paper-303]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.19.2.jar:git-Paper-303]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305) ~[paper-1.19.2.jar:git-Paper-303]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:10:03] [Server thread/ERROR]: Could not load 'plugins/InteractionVisualizer-1.18.1.2.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ProtocolLib]. Please download and install these plugins to run 'InteractionVisualizer'.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:287) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:423) ~[paper-1.19.2.jar:git-Paper-303]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:278) ~[paper-1.19.2.jar:git-Paper-303]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.19.2.jar:git-Paper-303]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305) ~[paper-1.19.2.jar:git-Paper-303]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:10:03] [Server thread/INFO]: [GSit] Loading GSit v1.2.9
+[18:10:03] [Server thread/INFO]: [Back] Loading Back v1.1
+[18:10:03] [Server thread/INFO]: [GWarp] Loading GWarp v[2.13.0.2]
+[18:10:03] [Server thread/INFO]: [SimpleRTP] Loading SimpleRTP v2.5
+[18:10:03] [Server thread/INFO]: [ChestSort] Loading ChestSort v13.4.0
+[18:10:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:10:03] [Server thread/INFO]: Preparing level "world"
+[18:10:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:10:05] [Server thread/INFO]: Time elapsed: 305 ms
+[18:10:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:10:05] [Server thread/INFO]: Time elapsed: 159 ms
+[18:10:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:10:05] [Server thread/INFO]: Time elapsed: 116 ms
+[18:10:05] [Server thread/INFO]: [GSit] Enabling GSit v1.2.9
+[18:10:05] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[18:10:06] [Server thread/INFO]: [Back] Enabling Back v1.1
+[18:10:06] [Server thread/INFO]: -----------------------------
+[18:10:06] [Server thread/INFO]: Back Plugin Enabled!
+[18:10:06] [Server thread/INFO]: Plugin develloped by GFelberg
+[18:10:06] [Server thread/INFO]: -----------------------------
+[18:10:06] [Server thread/INFO]: [GWarp] Enabling GWarp v[2.13.0.2]
+[18:10:06] [Server thread/INFO]: [GWarp] The Plugin was successfully enabled.
+[18:10:06] [Server thread/INFO]: [SimpleRTP] Enabling SimpleRTP v2.5
+[18:10:06] [Server thread/INFO]: [ChestSort] Enabling ChestSort v13.4.0
+[18:10:07] [Server thread/INFO]: [ChestSort] Use permissions: true
+[18:10:07] [Server thread/INFO]: [ChestSort] Current sorting method: {category},{itemsFirst},{name},{color},{customName}
+[18:10:07] [Server thread/INFO]: [ChestSort] Allow automatic chest sorting:true
+[18:10:07] [Server thread/INFO]: [ChestSort]   |- Chest sorting enabled by default: false
+[18:10:07] [Server thread/INFO]: [ChestSort]   |- Sort time: close
+[18:10:07] [Server thread/INFO]: [ChestSort] Allow automatic inventory sorting:true
+[18:10:07] [Server thread/INFO]: [ChestSort]   |- Inventory sorting enabled by default: false
+[18:10:07] [Server thread/INFO]: [ChestSort] Auto generate category files: true
+[18:10:07] [Server thread/INFO]: [ChestSort] Allow hotkeys: true
+[18:10:07] [Server thread/INFO]: [ChestSort] Hotkeys enabled by default:
+[18:10:07] [Server thread/INFO]: [ChestSort]   |- Middle-Click: true
+[18:10:07] [Server thread/INFO]: [ChestSort]   |- Shift-Click: true
+[18:10:07] [Server thread/INFO]: [ChestSort]   |- Double-Click: true
+[18:10:07] [Server thread/INFO]: [ChestSort]   |- Shift-Right-Click: true
+[18:10:07] [Server thread/INFO]: [ChestSort] Allow additional hotkeys: true
+[18:10:07] [Server thread/INFO]: [ChestSort] Additional hotkeys enabled by default:
+[18:10:07] [Server thread/INFO]: [ChestSort]   |- Left-Click: false
+[18:10:07] [Server thread/INFO]: [ChestSort]   |- Right-Click: false
+[18:10:07] [Server thread/INFO]: [ChestSort] Check for updates: true
+[18:10:07] [Server thread/INFO]: [ChestSort] Check interval: 4 hours (4.0 seconds)
+[18:10:07] [Server thread/INFO]: [ChestSort] Categories: 900-weapons (6), 905-common-tools (4), 907-other-tools (6), 909-food (33), 910-valuables (47), 920-armor-and-arrows (9), 930-brewing (18), 950-redstone (23), 960-wood (60), 970-stone (38), 980-plants (50), 981-corals (1)
+[18:10:07] [Server thread/INFO]: Running delayed init tasks
+[18:10:07] [Server thread/INFO]: Done (6.756s)! For help, type "help"
+[18:10:07] [Server thread/INFO]: Timings Reset
+[18:16:05] [User Authenticator #0/INFO]: UUID of player iNoahZ is bcd6146c-2774-4728-af94-9c535c773c0d
+[18:16:05] [Server thread/INFO]: iNoahZ joined the game
+[18:16:05] [Server thread/INFO]: iNoahZ[/207.38.134.25:63984] logged in with entity id 176 at ([world]-80.48750001192093, -45.9643912313272, -19.343048380936466)
+[18:17:26] [Server thread/INFO]: iNoahZ has made the advancement [Diamonds!]
+[18:18:36] [Server thread/INFO]: iNoahZ issued server command: /warp cabin
+[18:44:48] [Server thread/INFO]: iNoahZ lost connection: Disconnected
+[18:44:48] [Server thread/INFO]: iNoahZ left the game
+[18:56:31] [Server thread/INFO]: Stopping server
+[18:56:31] [Server thread/INFO]: [ChestSort] Disabling ChestSort v13.4.0
+[18:56:31] [Server thread/INFO]: [SimpleRTP] Disabling SimpleRTP v2.5
+[18:56:31] [Server thread/INFO]: [GWarp] Disabling GWarp v[2.13.0.2]
+[18:56:31] [Server thread/INFO]: [GWarp] The Plugin was successfully disabled.
+[18:56:31] [Server thread/INFO]: [Back] Disabling Back v1.1
+[18:56:31] [Server thread/INFO]: -----------------------------
+[18:56:31] [Server thread/INFO]: Back Plugin Disabled!
+[18:56:31] [Server thread/INFO]: Plugin develloped by GFelberg
+[18:56:31] [Server thread/INFO]: -----------------------------
+[18:56:31] [Server thread/INFO]: [GSit] Disabling GSit v1.2.9
+[18:56:31] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[18:56:31] [Server thread/INFO]: Saving players

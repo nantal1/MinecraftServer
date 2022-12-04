@@ -1,0 +1,49 @@
+Warps:
+  spawn:
+    name: spawn
+    owner: bcd6146c-2774-4728-af94-9c535c773c0d
+    ownername: iNoahZ
+    count: true
+    loc:
+      x: -84.52927090854311
+      y: 64.0
+      z: -27.77859086659674
+      pitch: 4.2354336
+      yaw: -164.46178
+      world: world
+  cabin:
+    name: cabin
+    owner: bcd6146c-2774-4728-af94-9c535c773c0d
+    ownername: iNoahZ
+    count: true
+    loc:
+      x: -83.62502163321534
+      y: 64.0
+      z: -19.50629296978848
+      pitch: 0.5845375
+      yaw: -91.10364
+      world: world
+  village:
+    name: village
+    owner: bcd6146c-2774-4728-af94-9c535c773c0d
+    ownername: iNoahZ
+    count: true
+    loc:
+      x: -411.2041885167197
+      y: 71.0
+      z: -1368.7589555392096
+      pitch: 12.3141365
+      yaw: -177.01262
+      world: world
+  emerald:
+    name: emerald
+    owner: bcd6146c-2774-4728-af94-9c535c773c0d
+    ownername: iNoahZ
+    count: true
+    loc:
+      x: 3892.4291129063613
+      y: 78.0
+      z: 1249.9735098355507
+      pitch: -54.35476
+      yaw: 112.163025
+      world: world

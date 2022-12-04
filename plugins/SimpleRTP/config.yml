@@ -1,0 +1,55 @@
+# [SimpleRTP]
+
+# Placeholder $distance$ displays how many blocks away you teleported.
+# Placeholder $x $y $z displays the new coordinates.
+# Hex colors can be used as &#000000
+Teleport-Message:
+  Before: '&8[&fRTP&8] &7> Searching for a safe place to teleport, stay still!'
+  After: '&8[&fRTP&8] &7> You have been teleported $distance$ blocks away! At x: $x y: $y z: $z'
+
+# Placeholder $time$ displays cooldown time left.
+Cooldown-Messages:
+  Cooldown-Active:
+    Message: '&8[&fRTP&8] &7> &cYou must wait $time$ seconds to teleport again!'
+  Cooldown-Ended:
+    Enabled: true
+    Message: '&8[&fRTP&8] &7> &eCooldown ended! You can now use &7/rtp'
+
+# Cooldown time in seconds.
+Cooldown-Time:
+  Enabled: true
+  Seconds: 30
+
+# Should the teleport cancel if the player moves.
+# Seconds the player must stand still after the command.
+Cancel-On-Move:
+  Enabled: true
+  Seconds: 3
+  Message: '&8[&fRTP&8] &cCancelled teleport. You must stay still to teleport!'
+
+# RTP will not be available in blacklisted worlds.
+Teleportation:
+  worlds:
+    blacklist:
+      enabled: true
+      blocked-worlds:
+      - "world_the_end"
+
+Invalid-World: '&cYou can not use RTP in this world.'
+
+# The maximum and minimum range coordinates the player will teleport from their original place.
+MaxRadius: 5000
+MinRadius: -5000
+
+# 1.9+ Only
+# Particle List: 
+# CLOUD, CRIT, CRIT_MAGIC, DRAGON_BREATH, END_ROD, PORTAL, FLAME, FIREWORKS_SPARK
+Particles:
+  Enabled: false
+  Effect: PORTAL
+
+# Effect during teleportation.
+Potion-Effect:
+  Enabled: true
+  Effect: BLINDNESS
+  Duration: 40
